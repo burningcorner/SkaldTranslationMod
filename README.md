@@ -23,10 +23,11 @@ TranslationMod is a BepInEx-based plugin that provides real-time localization ca
 ### BepInEx Installation
 
 #### Windows/Linux
-1. Download BepInEx 6 (beta) from the [official BepInEx GitHub releases](https://github.com/BepInEx/BepInEx/releases)
-2. Extract the BepInEx files to your SKALD game directory
+1. Download BepInEx 6 from the most actual source: https://builds.bepinex.dev/projects/bepinex_be --> BepInEx-Unity.Mono-win-x64-6.0.0-be.793+dbc82f0 worked with Windows and SteamOS
+2. Extract the BepInEx files to your SKALD game directory --> directly into the root of the game
 3. Run the game once to generate BepInEx configuration files
-4. The game will close after initial setup - this is normal
+4. The game will close after initial setup - this is normal. Otherwise close it manually.
+5. Place the translation mod into the BepInEx Folder BepInEx/plugins/TranslationMod (below that are the files and the folder LanguagePacks)
 
 #### macOS (Intel)
 Follow the same steps as Windows/Linux above.
