@@ -77,9 +77,9 @@ BepInEx doesn't natively support ARM architecture on macOS. To make it work:
 
 ### Plugin Installation Steps
 1. Complete BepInEx installation for your platform (see above)
-2. Download the latest TranslationMod [release](https://github.com/warfollowsme/SKALD-TranslationMod/releases)
-3. Copy `TranslationMod.dll, Newtonsoft.Json.dll, TranslationMod.cfg` to `BepInEx/plugins/` folder
-4. Copy a language packs folder 
+2. Download the latest TranslationMod [release](https://github.com/burningcorner/SkaldTranslationMod/releases)
+3. Copy `TranslationMod.dll, Newtonsoft.Json.dll, TranslationMod.cfg` to `BepInEx/plugins/TranslationMod` folder
+4. Copy the language packs folder 
    - If you want create new language pack  language pack please see Language Pack Creation below
 5. Launch the game - the plugin will automatically initialize
 
